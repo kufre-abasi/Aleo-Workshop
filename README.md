@@ -5,6 +5,7 @@ Introduction: This documentation outlines the steps taken during our workshop to
 ## Deployment Command
 To deploy the below programs to the Aleo network, use the following command: leo deploy --network testnet
 
+##
 
 # Task 1 (Hello world )
 ## Purpose:
@@ -16,6 +17,7 @@ This program defines a main function that takes two public u32 integers, a and b
 ## Deployment Link 
 https://explorer.aleo.org/transaction/at1wuyvymd52l74fvdd47rhc6wk76nagpy7jkfstqnmel8njmcxq5fq8utacw
 
+##
 
 # Task 2
 ## Purpose:
@@ -25,8 +27,9 @@ The moovbootcamp_token_kufre program demonstrates a basic example of minting and
 This program defines a Token record and two transitions: mint and transfer. The mint function creates a new token with a specified amount for an owner, while the transfer function allows the transfer of a specified amount of tokens to another address.
 
 ## Deployment Link 
-https://explorer.aleo.org//transaction/at1a8u5f52t05j5h262qvr0ndmks5yxqf6gz4ar8xsrrsuvzv5wmu9sf5jdda
+https://explorer.aleo.org/transaction/at1a8u5f52t05j5h262qvr0ndmks5yxqf6gz4ar8xsrrsuvzv5wmu9sf5jdda
 
+##
 
 # Task 3
 ## Purpose:
