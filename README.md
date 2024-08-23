@@ -14,6 +14,9 @@ The moovbootcamp_kufre program is a simple smart contract that demonstrates how 
 ## Functionality:
 This program defines a main function that takes two public u32 integers, a and b, adds them together, and returns the result as c.
 
+## Program Execution Command
+`leo run main 3u32 2u32`
+
 ## Deployment Link 
 https://explorer.aleo.org/transaction/at1wuyvymd52l74fvdd47rhc6wk76nagpy7jkfstqnmel8njmcxq5fq8utacw
 
@@ -27,7 +30,6 @@ The moovbootcamp_token_kufre program demonstrates a basic example of minting and
 This program defines a Token record and two transitions: mint and transfer. The mint function creates a new token with a specified amount for an owner, while the transfer function allows the transfer of a specified amount of tokens to another address.
 
 ## Program Execution Command
-For the second workshop
 
 1st Command : `leo run mint <type_aleo_address> <type_amount>u64`
 
