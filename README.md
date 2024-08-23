@@ -17,6 +17,8 @@ This program defines a main function that takes two public u32 integers, a and b
 ## Program Execution Command
 `leo run main 3u32 2u32`
 
+![image](https://github.com/user-attachments/assets/a2032652-f94e-4796-ad75-4bad74ccc500)
+
 ## Deployment Link 
 https://explorer.aleo.org/transaction/at1wuyvymd52l74fvdd47rhc6wk76nagpy7jkfstqnmel8njmcxq5fq8utacw
 
