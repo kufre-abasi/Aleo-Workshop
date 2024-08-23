@@ -3,7 +3,7 @@
 Introduction: This documentation outlines the steps taken during our workshop to build and deploy three different Aleo programs. The programs demonstrate basic arithmetic operations, token minting and transferring, and a simple voice messaging system using Aleo's privacy-preserving smart contracts. Each section will describe the purpose of the program, the code implementation, and the commands used to deploy these programs to the Aleo network.
 
 ## Deployment Command
-To deploy the below programs to the Aleo network, use the following command: leo deploy --network testnet
+To deploy the below programs to the Aleo network, use the following command: `leo deploy --network testnet`
 
 ##
 
@@ -26,6 +26,17 @@ The moovbootcamp_token_kufre program demonstrates a basic example of minting and
 ## Functionality:
 This program defines a Token record and two transitions: mint and transfer. The mint function creates a new token with a specified amount for an owner, while the transfer function allows the transfer of a specified amount of tokens to another address.
 
+## Program Execution Command
+For the second workshop
+
+1st Command : `leo run mint <type_aleo_address> <type_amount>u64`
+
+
+2nd command: `leo run transfer "<Token_Record>" <to_address> <amount>u64`
+We were  able to use the generated record from 1st command to input into the second command's first input (remember) and then our to address and amount 
+
+Bonus: Later I will talk about trying transferring token onchains to those interested using the `leo execute`
+
 ## Deployment Link 
 https://explorer.aleo.org/transaction/at1a8u5f52t05j5h262qvr0ndmks5yxqf6gz4ar8xsrrsuvzv5wmu9sf5jdda
 
@@ -37,6 +48,10 @@ The moovbootcamp_voice_kufre program is a more complex example that involves sen
 
 ## Functionality:
 This program allows users to send and receive voice messages. It uses a hashing mechanism to ensure that the message content and user identities are securely stored and processed on the Aleo blockchain. The program includes functions to send voice messages, update the state on-chain, and combine hash values of the owner and receiver.
+
+## Program Execution Command
+`leo run combine_hash_owner_receiver <type_your_address> <type_friend_address>`
+This has only 2 inputs where first input is owner address (self.caller) and second input is the  receiver address
 
 ## Deployment Link 
 https://explorer.aleo.org/transaction/at1lsu2pft7kcr4tjt3yz6hk39k4pf9cqzlx3p8lv2kjzanlaudrgzs2zzt5w
