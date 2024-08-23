@@ -57,6 +57,8 @@ This program allows users to send and receive voice messages. It uses a hashing 
 `leo run combine_hash_owner_receiver <type_your_address> <type_friend_address>`
 This has only 2 inputs where first input is owner address (self.caller) and second input is the  receiver address
 
+![image](https://github.com/user-attachments/assets/f4cb2fd3-94e8-44ff-9d3f-b4ead3d526c8)
+
 ## Deployment Link 
 https://explorer.aleo.org/transaction/at1lsu2pft7kcr4tjt3yz6hk39k4pf9cqzlx3p8lv2kjzanlaudrgzs2zzt5w
 
