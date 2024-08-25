@@ -47,8 +47,9 @@ This program defines a `Token` record and two transitions: `mint` and `transfer`
    leo run transfer "<Token_Record>" <to_address> <amount>u64
    ```
    We were able to use the generated record from the first command as input into the second command's first input (remember), and then our to address and amount.
+   
 
-![image](https://github.com/user-attachments/assets/3ebabf49-4d4d-4161-ba4d-1868d9d839d4)
+![image](https://github.com/user-attachments/assets/c5e905a0-8f4e-4ac8-8986-1125d5f28166)
 
 ### Deployment Link
 [View Transaction](https://explorer.aleo.org/transaction/at1a8u5f52t05j5h262qvr0ndmks5yxqf6gz4ar8xsrrsuvzv5wmu9sf5jdda)
